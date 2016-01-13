@@ -1,0 +1,11 @@
+/ = @twitter_client.home_timeline
+/ %hr
+/ = @twitter_client.mentions_timeline
+
+.row
+  .col.m8
+    = react_component 'Tweets'
+  .col.m4
+    = react_component 'Followers'
+
+
